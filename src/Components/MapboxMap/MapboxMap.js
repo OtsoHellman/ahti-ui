@@ -99,7 +99,6 @@ const MapboxMap = ({
       <MapGL
         {...viewport}
         ref={map}
-        mapStyle={mapStyle}
         mapboxApiAccessToken={process.env.REACT_APP_ACCESSTOKEN}
         onViewportChange={viewport => setViewport(viewport)}
         onNativeClick={_onClick}
